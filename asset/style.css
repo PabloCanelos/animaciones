@@ -9,6 +9,9 @@ body, html {
 }
 html{
     scroll-behavior: smooth;
+    font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .grid-container{
      scroll-behavior: smooth;
@@ -23,9 +26,7 @@ header{
     height: 7rem;
     position: fixed;
     width: 100vw;
-    z-index: 1000;
-   
-
+    z-index: 1000;/*sin z-index las card se montan sobre el header*/
 }
 .item-header{
     display: flex;
@@ -92,6 +93,7 @@ main{
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+    padding-bottom: 2rem;
    
 }
 .card{  
@@ -190,6 +192,7 @@ footer{
         .section-galeria-main{
           display: grid;
           grid-template-columns: repeat(3, 1fr); 
+          grid-template-rows: repeat(3, auto);
           grid-template-areas: 
           "header main"
           "footer footer";   
@@ -206,6 +209,7 @@ footer{
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
         height: auto;
+        
       }
       .tiendas-img img{
           width: 100%;
