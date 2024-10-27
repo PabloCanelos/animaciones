@@ -142,6 +142,13 @@ main{
     justify-content: center;
     align-items: center;
 }
+.tiendas-img img{
+    transition: transform 0.3s ease-in-out;
+}
+.tiendas-img img:hover{
+    transform: translateY(-10px);
+
+}
 .top-article{
     
     width: 100vw;
@@ -187,6 +194,7 @@ footer{
     height: 3rem;
     cursor: pointer;
 }
+
 
 @media (orientation:landscape) and (min-width:568px){
         .section-galeria-main{
