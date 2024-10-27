@@ -226,7 +226,7 @@ footer{
           object-fit: cover;
       }    
     }
-@media(min-width: 768px) /*and (orientation: landscape: 796px)*/{
+@media(min-width: 768px) and (orientation: landscape: 796px){
   
     .grid-container{
         display: grid;
@@ -238,6 +238,7 @@ footer{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
     }
     body{
         min-height: 100vh;
@@ -256,6 +257,7 @@ footer{
         margin: 0;
         overflow-x: hidden; 
         width: 100%;    
+        
     }
     .Top-main{
         display: flex;
@@ -282,15 +284,19 @@ footer{
     }
     .section-galeria-main{
         height: 70vh;
+      
     }
     .nuestras-tiendas{
         width: 100%;
         padding-top: 3rem;
+       
     }
-    .tiendas-img{
+    
+    /*.tiendas-img{
         display: grid;
-        /*grid-template-columns: 250px 250px 250px;*/    
-    }
+        grid-template-columns: 1fr 1fr 1fr;
+        /*grid-template-columns: 250px 250px 250px;    
+    }*/
     .ubicacion{
         display: flex;
         justify-content: center;
