@@ -51,7 +51,7 @@ header{
 }
 a{
     text-decoration: none;
-    color: rgb(45, 45, 45)0;
+    color: rgb(45, 45, 45);
     cursor: pointer;
 }
 menu ul{
@@ -121,6 +121,9 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+main h2{
+    text-align: center;
 }
 .nuestras-tiendas{
     display: flex;
@@ -226,7 +229,7 @@ footer{
           object-fit: cover;
       }    
     }
-@media(min-width: 768px) and (orientation: landscape: 796px){
+@media(min-width: 768px) and (orientation: landscape){
   
     .grid-container{
         display: grid;
