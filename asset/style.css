@@ -108,8 +108,9 @@ main{
     align-items: center;
     flex-direction: column;
     border-radius: 3px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
     z-index: 0;
+    
 }
 .card:hover {
     transform: translateY(-10px);
@@ -261,6 +262,7 @@ footer{
     }
     body{
         min-height: 100vh;
+        
     }
     header{
         grid-area: a;
@@ -327,6 +329,7 @@ footer{
     footer{
         grid-area: c;
         margin-top: auto;
+        z-index: 1000;
     }
     .footer-correo{
         padding-left: 12rem;
