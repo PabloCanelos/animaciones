@@ -332,12 +332,7 @@ footer{
         margin-top: auto;
         z-index: 1000;
     }
-    .footer-correo{
-        padding-left: 12rem;
-    }
-    .rrss{
-        padding-left: 12rem;
-    }   
+   
 }
 /*
 @media(max-width: 1024px) {
