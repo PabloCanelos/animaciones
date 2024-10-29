@@ -252,9 +252,11 @@ footer{
     .grid-container{
         display: grid;
         grid-template-areas: 
-        "a b b b"
-        "c c c c"
+        "a b"
+        "c b"
         ;
+        grid-template-columns: 20% auto;
+        
         height: 100vh;
         margin: 0;
         padding: 0;
